@@ -4,7 +4,7 @@
 We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthesis framework that generates non-repetitive images with 4K or higher resolution from a single training image. OUR-GAN generates a visually coherent image at low resolution and then gradually increases the resolution by super-resolution. Since OUR-GAN learns from a real UHR image, it can synthesize large-scale shapes with fine details while maintaining long-range coherence, which is difficult with conventional generative models that generate large images based on the patch distribution learned from relatively small images. OUR-GAN applies seamless subregion-wise super-resolution that synthesizes 4k or higher UHR images with limited memory preventing discontinuity at the boundary. Additionally, OUR-GAN improves diversity and visual coherence by adding vertical positional embeddings to the feature maps. In experiments on the ST4K and RAISE datasets, OUR-GAN exhibited improved fidelity, visual coherency, and diversity compared with existing methods. The synthesized images are presented at https://anonymous-62348.github.io.
 
 ### 8K image synthesized by OUR-GAN
-![8K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/8k_stonehenge.jpg)
+![8K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/8k_stonhenge.jpg)
 
 ### 16K image synthesized by OUR-GAN
 ![16K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/16k_stonehenge.jpg)
