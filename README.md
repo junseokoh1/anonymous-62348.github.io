@@ -17,6 +17,7 @@ We upscale a 4K image to a 16K image with the super-resolution model trained to 
 
 Temp file
 ![1K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/1k_stonhenge_text.jpg)
+![256](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/256_stonhenge_test.jpg)
 
 <!-- You can use the [editor on GitHub](https://github.com/anonymous-62348/anonymous-62348.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
