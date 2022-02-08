@@ -2,16 +2,37 @@
 
 ### Abstract
 We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthesis framework that generates non-repetitive images with 4K or higher resolution from a single training image. OUR-GAN generates a visually coherent image at low resolution and then gradually increases the resolution by super-resolution. Since OUR-GAN learns from a real UHR image, it can synthesize large-scale shapes with fine details while maintaining long-range coherence, which is difficult with conventional generative models that generate large images based on the patch distribution learned from relatively small images. OUR-GAN applies seamless subregion-wise super-resolution that synthesizes 4k or higher UHR images with limited memory preventing discontinuity at the boundary. Additionally, OUR-GAN improves diversity and visual coherence by adding vertical positional embeddings to the feature maps. In experiments on the ST4K and RAISE datasets, OUR-GAN exhibited improved fidelity, visual coherency, and diversity compared with existing methods. The synthesized images are presented at https://anonymous-62348.github.io.
+<br>
+<br>
 
 ### 8K image synthesized by OUR-GAN
 ![8K](/assets/images/8k_stonehenge.jpg)
+<br>
+<br>
 
 ### 16K image synthesized by OUR-GAN
-![16K](/assets/images/16k_stonehenge.jpg)
-
 Note that we train OUR-GAN on the 4K resolution image.
 OUR-GAN can synthesize Ultra-high-resolution images larger than tha training images.
 We upscale a 4K image to a 16K image with the super-resolution model trained to upscales 1K images to 4K images.
+![16K](/assets/images/16k_stonehenge.jpg)
+<br>
+<br>
+<br>
+
+### 4K scenery images synthesized by OUR-GAN
+OUR-GAN successfully synthesized high-quality non-repetitive images with visually coherent shapes with fine details.
+| ![4K_scenery_0_0](/assets/images/4K/11000_0.png) | ![4K_scenery_0_1](/assets/images/4K/11000_17.png) |
+|---|---|
+| ![4K_scenery_1_0](/assets/images/4K/11015_17.png) | ![4K_scenery_1_1](/assets/images/4K/11015_28.png) |
+| ![4K_scenery_2_0](/assets/images/4K/11021_0.png) | ![4K_scenery_2_1](/assets/images/4K/11021_18.png) |
+| ![4K_scenery_3_0](/assets/images/4K/11013_44.png) | ![4K_scenery_3_1](/assets/images/4K/11013_46.png) |
+<br>
+
+### 4K texture images synthesized by OUR-GAN
+OUR-GAN successfully synthesized high-quality texture images with diverse patterns.
+| ![4K_texture_0_0](/assets/images/4K/21000_52.png) | ![4K_texture_0_1](/assets/images/4K/21000_66.png) |
+|---|---|
+| ![4K_texture_1_0](/assets/images/4K/21022_52.png) | ![4K_texture_1_1](/assets/images/4K/21022_83.png) |
 
 <!-- You can use the [editor on GitHub](https://github.com/anonymous-62348/anonymous-62348.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
