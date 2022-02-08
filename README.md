@@ -15,6 +15,9 @@ Note that we train OUR-GAN on the 4K resolution image.
 OUR-GAN can synthesize Ultra-high-resolution images larger than tha training images.
 We upscale a 4K image to a 16K image with the super-resolution model trained to upscales 1K images to 4K images.
 
+Temp file
+![1K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/1k_stonhenge_text.jpg)
+
 <!-- You can use the [editor on GitHub](https://github.com/anonymous-62348/anonymous-62348.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
