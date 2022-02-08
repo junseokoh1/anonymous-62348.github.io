@@ -20,15 +20,18 @@ We upscaled the synthesized 4K image to a 16K image using OUR-GAN trained on a 4
 
 ### 4K scenery images synthesized by OUR-GAN
 OUR-GAN successfully synthesized high-quality non-repetitive images with visually coherent shapes with fine details.
+
 | ![4K_scenery_0_0](/assets/images/4K/11000_0.png) | ![4K_scenery_0_1](/assets/images/4K/11000_17.png) |
 |---|---|
 | ![4K_scenery_1_0](/assets/images/4K/11015_17.png) | ![4K_scenery_1_1](/assets/images/4K/11015_28.png) |
 | ![4K_scenery_2_0](/assets/images/4K/11021_0.png) | ![4K_scenery_2_1](/assets/images/4K/11021_18.png) |
 | ![4K_scenery_3_0](/assets/images/4K/11013_44.png) | ![4K_scenery_3_1](/assets/images/4K/11013_46.png) |
+
 <br>
 
 ### 4K texture images synthesized by OUR-GAN
 OUR-GAN successfully synthesized high-quality texture images with diverse patterns.
+
 | ![4K_texture_0_0](/assets/images/4K/21000_52.png) | ![4K_texture_0_1](/assets/images/4K/21000_66.png) |
 |---|---|
 | ![4K_texture_1_0](/assets/images/4K/21022_52.png) | ![4K_texture_1_1](/assets/images/4K/21022_83.png) |
