@@ -6,19 +6,14 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 If you can't see the images, please visit https://github.com/anonymous-62348/anonymous-62348.github.io
 
 ### 8K image synthesized by OUR-GAN
-![8K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/8k_stonhenge.jpg)
+![8K](/8k_stonhenge.jpg)
 
 ### 16K image synthesized by OUR-GAN
-![16K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/16k_stonehenge.jpg)
+![16K](/16k_stonehenge.jpg)
 
 Note that we train OUR-GAN on the 4K resolution image.
 OUR-GAN can synthesize Ultra-high-resolution images larger than tha training images.
 We upscale a 4K image to a 16K image with the super-resolution model trained to upscales 1K images to 4K images.
-
-Temp file
-![1K](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/1k_stonhenge_text.jpg)
-![256](https://github.com/anonymous-62348/anonymous-62348.github.io/blob/main/256_stonhenge_test.jpg)
-![256]({{"/blob/main/256_stonehenge_test.jpg"| relative_url}})
 
 <!-- You can use the [editor on GitHub](https://github.com/anonymous-62348/anonymous-62348.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
