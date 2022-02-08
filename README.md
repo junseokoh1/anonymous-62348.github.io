@@ -12,10 +12,9 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 
 ### 16K image synthesized by OUR-GAN
 Note that we train OUR-GAN on the 4K resolution image.
-OUR-GAN can synthesize Ultra-high-resolution images larger than tha training images.
-We upscale a 4K image to a 16K image with the super-resolution model trained to upscales 1K images to 4K images.
+OUR-GAN can synthesize Ultra-high-resolution images larger than training images.
+We upscaled the synthesized 4K image to a 16K image using OUR-GAN trained on a 4k image.
 ![16K](/assets/images/16k_stonehenge.jpg)
-<br>
 <br>
 <br>
 
