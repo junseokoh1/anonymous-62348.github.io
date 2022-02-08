@@ -6,7 +6,7 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 <br>
 
 ### 8K image synthesized by OUR-GAN
-![8K](/assets/images/8k_stonehenge.jpg)
+[![8K](/assets/images/8k_stonehenge.jpg)](/assets/images/8k_stonehenge.jpg)
 <br>
 <br>
 
