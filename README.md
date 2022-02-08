@@ -6,10 +6,10 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 If you can't see the images, please visit https://github.com/anonymous-62348/anonymous-62348.github.io
 
 ### 8K image synthesized by OUR-GAN
-![8K](/8k_stonhenge.jpg)
+![8K](/assets/images/8k_stonehenge.jpg)
 
 ### 16K image synthesized by OUR-GAN
-![16K](/16k_stonehenge.jpg)
+![16K](/assets/images/16k_stonehenge.jpg)
 
 Note that we train OUR-GAN on the 4K resolution image.
 OUR-GAN can synthesize Ultra-high-resolution images larger than tha training images.
