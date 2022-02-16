@@ -1,23 +1,31 @@
-## OUR-GAN demo
+## OUR-GAN Demo
+
+## OUR-GAN: One-shot Ultra-high-Resolution Generative Adversarial Networks
 
 ### Abstract
 We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthesis framework that generates non-repetitive images with 4K or higher resolution from a single training image. OUR-GAN generates a visually coherent image at low resolution and then gradually increases the resolution by super-resolution. Since OUR-GAN learns from a real UHR image, it can synthesize large-scale shapes with fine details while maintaining long-range coherence, which is difficult with conventional generative models that generate large images based on the patch distribution learned from relatively small images. OUR-GAN applies seamless subregion-wise super-resolution that synthesizes 4k or higher UHR images with limited memory preventing discontinuity at the boundary. Additionally, OUR-GAN improves diversity and visual coherence by adding vertical positional embeddings to the feature maps. In experiments on the ST4K and RAISE datasets, OUR-GAN exhibited improved fidelity, visual coherency, and diversity compared with existing methods. The synthesized images are presented at https://anonymous-62348.github.io.
 <br>
 <br>
 
-### 8K image synthesized by OUR-GAN
-You can access the raw images by clicking on the images. 
+
+### 16K (16,384 x 10,912) Image Synthesized by OUR-GAN trained with a single 4K training image.
+OUR-GAN can synthesize UHR image with higher resolution than that of the training image. \
+The resolution of this image is 16K, whereas that of the training image is only 4K. \
+Loading UHR images may take time because the files are large. \
+Click on the images to access the full-size raw images.
+
+[![16K](/assets/images/16k_stonehenge.jpg)](/assets/images/16k_stonehenge.jpg)
+<br>
+<br>
+
+### 8K (8,192 x 5,456) Image Synthesized by OUR-GAN
+
+
 [![8K](/assets/images/8k_stonehenge.jpg)](/assets/images/8k_stonehenge.jpg)
 <br>
 <br>
 
-### 16K image synthesized by OUR-GAN
-Note that we train OUR-GAN on the 4K resolution image.
-OUR-GAN can synthesize Ultra-high-resolution images larger than training images.
-We upscaled the synthesized 4K image to a 16K image using OUR-GAN trained on a 4k image.
-[![16K](/assets/images/16k_stonehenge.jpg)](/assets/images/16k_stonehenge.jpg)
-<br>
-<br>
+
 
 ### 4K scenery images synthesized by OUR-GAN
 OUR-GAN successfully synthesized high-quality non-repetitive images with visually coherent shapes with fine details.
