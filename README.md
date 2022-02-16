@@ -1,5 +1,3 @@
-## OUR-GAN Demo
-
 ## OUR-GAN: One-shot Ultra-high-Resolution Generative Adversarial Networks
 
 ### Abstract
