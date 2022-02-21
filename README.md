@@ -28,7 +28,7 @@ Click on the images to access the full-size raw images.
 ### 4K scenery images synthesized by OUR-GAN
 OUR-GAN successfully synthesized high-quality non-repetitive images with visually coherent shapes with fine details.
 
-| [![4K_scenery_0_0](/assets/images/4K/11000_0.png)](/assets/images/4K/11000_0.png) | [![4K_scenery_0_1](/assets/images/4K/11000_17.png)](/assets/images/4K/11000_17.png) |
+| [![4K_scenery_0_0](/assets/images/downsampled/11000_0_downsampled.png)](/assets/images/4K/11000_0.png) | [![4K_scenery_0_1](/assets/images/downsampled/11000_17_downsampled.png)](/assets/images/4K/11000_17.png) |
 |---|---|
 | [![4K_scenery_1_0](/assets/images/4K/11015_17.png)](/assets/images/4K/11015_17.png) | [![4K_scenery_1_1](/assets/images/4K/11015_28.png)](/assets/images/4K/11015_28.png) |
 | [![4K_scenery_2_0](/assets/images/4K/11021_0.png)](/assets/images/4K/11021_0.png) | [![4K_scenery_2_1](/assets/images/4K/11021_18.png)](/assets/images/4K/11021_18.png) |
