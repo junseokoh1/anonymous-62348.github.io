@@ -30,18 +30,18 @@ OUR-GAN successfully synthesized high-quality non-repetitive images with visuall
 
 | [![4K_scenery_0_0](/assets/images/downsampled/11000_0_downsampled.png)](/assets/images/4K/11000_0.png) | [![4K_scenery_0_1](/assets/images/downsampled/11000_17_downsampled.png)](/assets/images/4K/11000_17.png) |
 |---|---|
-| [![4K_scenery_1_0](/assets/images/4K/11015_17.png)](/assets/images/4K/11015_17.png) | [![4K_scenery_1_1](/assets/images/4K/11015_28.png)](/assets/images/4K/11015_28.png) |
-| [![4K_scenery_2_0](/assets/images/4K/11021_0.png)](/assets/images/4K/11021_0.png) | [![4K_scenery_2_1](/assets/images/4K/11021_18.png)](/assets/images/4K/11021_18.png) |
-| [![4K_scenery_3_0](/assets/images/4K/11013_44.png)](/assets/images/4K/11013_44.png) | [![4K_scenery_3_1](/assets/images/4K/11013_46.png)](/assets/images/4K/11013_46.png) |
+| [![4K_scenery_1_0](/assets/images/downsampled/11015_17_downsampled.png)](/assets/images/4K/11015_17.png) | [![4K_scenery_1_1](/assets/images/downsampled/11015_28_downsampled.png)](/assets/images/4K/11015_28.png) |
+| [![4K_scenery_2_0](/assets/images/downsampled/11021_0_downsampled.png)](/assets/images/4K/11021_0.png) | [![4K_scenery_2_1](/assets/images/downsampled/11021_18_downsampled.png)](/assets/images/4K/11021_18.png) |
+| [![4K_scenery_3_0](/assets/images/downsampled/11013_44_downsampled.png)](/assets/images/4K/11013_44.png) | [![4K_scenery_3_1](/assets/images/downsampled/11013_46_downsampled.png)](/assets/images/4K/11013_46.png) |
 
 <br>
 
 ### 4K texture images synthesized by OUR-GAN
 OUR-GAN successfully synthesized high-quality texture images with diverse patterns.
 
-| [![4K_texture_0_0](/assets/images/4K/21000_52.png)](/assets/images/4K/21000_52.png) | [![4K_texture_0_1](/assets/images/4K/21000_66.png)](/assets/images/4K/21000_66.png) |
+| [![4K_texture_0_0](/assets/images/downsampled/21000_52_downsampled.png)](/assets/images/4K/21000_52.png) | [![4K_texture_0_1](/assets/images/downsampled/21000_66_downsampled.png)](/assets/images/4K/21000_66.png) |
 |---|---|
-| [![4K_texture_1_0](/assets/images/4K/21022_52.png)](/assets/images/4K/21022_52.png) | [![4K_texture_1_1](/assets/images/4K/21022_83.png)](/assets/images/4K/21022_83.png) |
+| [![4K_texture_1_0](/assets/images/downsampled/21022_52_downsampled.png)](/assets/images/4K/21022_52.png) | [![4K_texture_1_1](/assets/images/downsampled/21022_83_downsampled.png)](/assets/images/4K/21022_83.png) |
 
 <!-- You can use the [editor on GitHub](https://github.com/anonymous-62348/anonymous-62348.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
