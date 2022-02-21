@@ -12,7 +12,7 @@ The resolution of this image is 16K, whereas that of the training image is only 
 Loading UHR images may take time because the files are large. \
 Click on the images to access the full-size raw images.
 
-[![16K](/assets/images/16k_stonehenge.jpg)](/assets/images/16k_stonehenge.jpg)
+[![16K](/assets/images/downsampled/16k_stonehenge_downsampled.png)](/assets/images/16k_stonehenge.jpg)
 <br>
 <br>
 
