@@ -18,7 +18,7 @@ We've posted downsampled versions of the images on this page for faster image lo
 <br>
 <br>
 
-#### 4K training image
+#### - 4K training image
 [![16K](/assets/images/downsampled/4k_gt_stonehenge_downsampled.png)](/assets/images/4k_gt_stonehenge.png)
 <br>
 <br>
