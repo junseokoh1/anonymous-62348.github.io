@@ -8,18 +8,20 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 
 ### Notice
 Loading UHR images may take time because the files are large. \
-Therefore, We've posted downsampled versions of the images on this page for faster image loading. \
+Therefore, we've posted downsampled versions of the images on this page for faster image loading. \
 **Click on the images to access the full-size raw images.** \
-The images may look distorted depending on the viewer since the image resolution is very high. \
-So, please download samples and evaluate the quality. \
-Download all samples - [link](https://drive.google.com/drive/folders/1dolQ7Go4IJmPgkTbhSZ20GWk53INSKR5?usp=sharing)
 
+The images may look distorted depending on the viewer since the image resolution is very high. \
+So, please download samples, then evaluate the quality. \
+Download all samples (including all sections) - [link](https://drive.google.com/drive/folders/1dolQ7Go4IJmPgkTbhSZ20GWk53INSKR5?usp=sharing)\
 <br>
 
 ### 1. 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 4K training image.
 OUR-GAN can synthesize UHR image with higher resolution than that of the training image. \
 The resolution of this image is 16K, whereas that of the training image is only 4K. \
-OUR-GAN synthesize high-fidelity UHR images, preserving even fine details.
+OUR-GAN synthesize high-fidelity UHR images, preserving even fine details. \
+Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEqrjyv4cWRUaIkXRk21EirzK8cO?usp=sharing)
+
 <br>
 
 
@@ -74,7 +76,7 @@ OUR-GAN synthesize high-fidelity UHR images, preserving even fine details.
 For one-shot image synthesis, achieving visual coherence while maintaining diversity is challenging. \
 HP-VAE-GAN[1] synthesizes diverse images but fails to catch global coherence, as shown below. \
 OUR-GAN, applied vertical coordinate convolution to HP-VAE-GAN, significantly improves the global coherence of patterns still generating diverse patterns.\
-Download samples - [link](https://drive.google.com/drive/folders/1fKEny60i508IzPfD_ad6LOY6Qbc_nOtF?usp=sharing)
+Download Sec 2. samples - [link](https://drive.google.com/drive/folders/1fKEny60i508IzPfD_ad6LOY6Qbc_nOtF?usp=sharing)
 <br>
 
 <table>
@@ -111,7 +113,7 @@ Download samples - [link](https://drive.google.com/drive/folders/1fKEny60i508IzP
 For UHR image synthesis, models that learns from small patch images like InfinityGAN[2] are hard to synthesize large-scale shapes.\
 But, OUR-GAN can synthesize globally coherent large-scale objects such as buildings.\
 You can download full-size InfinityGAN samples in the [InfinityGAN project page](https://hubert0527.github.io/infinityGAN/).\
-Download samples - [link](https://drive.google.com/drive/folders/1pgyolhbutsw3fpeeG73O5ynRUZIGIgia?usp=sharing)\
+Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhbutsw3fpeeG73O5ynRUZIGIgia?usp=sharing)\
 <br>
 
 
@@ -150,6 +152,7 @@ Download samples - [link](https://drive.google.com/drive/folders/1pgyolhbutsw3fp
 
 
 
+<br>
 
 ### References
 
