@@ -6,35 +6,164 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 <br>
 
 
-### 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 4K training image.
+### Notice
+Loading UHR images may take time because the files are large. \
+Therefore, We've posted downsampled versions of the images on this page for faster image loading. \
+**Click on the images to access the full-size raw images.** \
+The images may look distorted depending on the viewer since the image resolution is very high. \
+So, please download samples and evaluate the quality. \
+Download all samples - [link](https://drive.google.com/drive/folders/1dolQ7Go4IJmPgkTbhSZ20GWk53INSKR5?usp=sharing)
+
+<br>
+
+### 1. 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 4K training image.
 OUR-GAN can synthesize UHR image with higher resolution than that of the training image. \
 The resolution of this image is 16K, whereas that of the training image is only 4K. \
-<br>
-Loading UHR images may take time because the files are large. \
-We've posted downsampled versions of the images on this page for faster image loading. \
-**Click on the images to access the full-size raw images.**
-
-[![16K](/assets/images/downsampled/16k_stonehenge_downsampled.png)](/assets/images/16k_stonehenge.jpg)
-<br>
-<br>
-
-#### - 4K training image
-[![16K](/assets/images/downsampled/4k_gt_stonehenge_downsampled.png)](/assets/images/4k_gt_stonehenge.png)
-<br>
+OUR-GAN synthesize high-fidelity UHR images, preserving even fine details.
 <br>
 
 
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1KnUvKsokhtQTjrsukftC9rcJ8BIDfuN6/view?usp=sharing" target="_blank"><img src="/assets/images/downsampled/16k_stonehenge_downsampled.png" alt="16k_our"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 10,912) Images synthesized by OUR-GAN</b></div></td>
+ </tr>
+</tbody>
+</table>
 
-### 8K (8,192 x 5,456) images synthesized by OUR-GAN
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1s1GiUl2gQnySx9iCVr2HAKPJzovs-eAI/view?usp=sharing" target="_blank"><img src="/assets/images/downsampled/4k_gt_stonehenge_downsampled.png" alt="4k_train"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>4K (4,096 x 2,728) training image</b></div></td>
+ </tr>
+</tbody>
+</table>
 
 
-[![8K](/assets/images/downsampled/8k_stonehenge_0_downsampled.png)](https://drive.google.com/file/d/1OjRdTokqMlMkP4QptHvC9c47rj2w9JXb/preview)
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1OjRdTokqMlMkP4QptHvC9c47rj2w9JXb/view?usp=sharing" target="_blank"><img src="/assets/images/downsampled/8k_stonehenge_0_downsampled.png" alt="8k_our_0"></a></th>
+    <th><a href="https://drive.google.com/file/d/1locTavVIL-gzAC5HRXuSIekqxnDeiO6z/view?usp=sharing" target="_blank"><img src="/assets/images/downsampled/8k_stonehenge_1_downsampled.png" alt="8k_our_1"></a></th>
+
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td colspan="2"><div align=center><b>8K (8,192 x 5,456) images synthesized by OUR-GAN</b></div></td>
+ </tr>
+</tbody>
+</table>
+
 <br>
 
-[![8K](/assets/images/downsampled/8k_stonehenge_1_downsampled.png)](https://drive.google.com/file/d/1locTavVIL-gzAC5HRXuSIekqxnDeiO6z/preview)
-<br>
+
+### 2. Improving visual coherence
+For one-shot image synthesis, achieving visual coherence while maintaining diversity is challenging. \
+HP-VAE-GAN[1] synthesizes diverse images but fails to catch global coherence, as shown below. \
+OUR-GAN, applied vertical coordinate convolution to HP-VAE-GAN, significantly improves the global coherence of patterns still generating diverse patterns.\
+Download samples - [link](https://drive.google.com/drive/folders/1fKEny60i508IzPfD_ad6LOY6Qbc_nOtF?usp=sharing)
 <br>
 
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/10GEWIesF0H_Dt3XDO7bmtErdAGq-nQCF/view?usp=sharing" target="_blank"><img src="assets/images/coherence/hp-vae-gan/1K_0_0.png" alt="coherence_hp_0_0"></a></th>
+    <th><a href="https://drive.google.com/file/d/17xryGUAxk09uKfucEaX6OyeNYIKMZw8C/view?usp=sharing" target="_blank"><img src="assets/images/coherence/hp-vae-gan/1K_0_1.png" alt="coherence_hp_0_1"></a></th>
+    <th><a href="https://drive.google.com/file/d/1by3AH8Nw3yxwb5rj0hAqiolEl7KoZlEY/view?usp=sharing" target="_blank"><img src="assets/images/coherence/our-gan/1K_0_0.png" alt="coherence_our_0_0"></a></th>
+    <th><a href="https://drive.google.com/file/d/1OkcvaJhA-IwbnZwLk5Hp0I2kurb4ggcj/view?usp=sharing" target="_blank"><img src="assets/images/coherence/our-gan/1K_0_1.png" alt="coherence_our_0_1"></a></th>
+   
+
+ </tr>
+</thead>
+<tbody>
+ <tr>
+    <th><a href="https://drive.google.com/file/d/10UBBH9TJ-ZGcypkFggHXpITVOvBoPzE3/view?usp=sharing" target="_blank"><img src="assets/images/coherence/hp-vae-gan/1K_1_0.png" alt="coherence_hp_1_0"></a></th>
+    <th><a href="https://drive.google.com/file/d/1Reb5MZF3Vm9seVGV_8wW0e3jkH2TS8P3/view?usp=sharing" target="_blank"><img src="assets/images/coherence/hp-vae-gan/1K_1_1.png" alt="coherence_hp_1_1"></a></th>
+    <th><a href="https://drive.google.com/file/d/1ThvvpuyirB-ATfjSDerRzxheR3pL7Tr0/view?usp=sharing" target="_blank"><img src="assets/images/coherence/our-gan/1K_1_0.png" alt="coherence_our_1_0"></a></th>
+    <th><a href="https://drive.google.com/file/d/1uUzcJcrrRWacpvXV03rRmqZjGrZkE5tK/view?usp=sharing" target="_blank"><img src="assets/images/coherence/our-gan/1K_1_1.png" alt="coherence_our_1_1"></a></th>
+ </tr>
+ <tr>
+    <td colspan="2"><div align=center><b>HP-VAE-GAN</b></div></td>
+    <td colspan="2"><div align=center><b>OUR-GAN (proposed) <br> (HP-VAE-GAN + Vertical coordinate convolution) </b></div></td>
+ </tr>
+</tbody>
+</table>
+
+
+
+<br>
+
+### 3. Large-scale shape generation 
+
+For UHR image synthesis, models that learns from small patch images like InfinityGAN[2] are hard to synthesize large-scale shapes.\
+But, OUR-GAN can synthesize globally coherent large-scale objects such as buildings.\
+You can download full-size InfinityGAN samples in the [InfinityGAN project page](https://hubert0527.github.io/infinityGAN/).\
+Download samples - [link](https://drive.google.com/drive/folders/1pgyolhbutsw3fpeeG73O5ynRUZIGIgia?usp=sharing)\
+<br>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1gCqqCaIP_yFMkt5zrreh8smXB-NLlTlQ/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_0.png" alt="large_our_0"></a></th>
+    <th><a href="https://drive.google.com/file/d/1rYitkLTsLlINzruv1m_I9565SxOPO6tP/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_1.png" alt="large_our_1"</a></th>
+ </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="2"><div align=center><b>OUR-GAN (proposed)</b></div></td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+
+
+<table>
+<thead>
+  <tr>
+    <th><img src="assets/images/large/inf_1k_0.png" alt="large_inf_0"></th>
+    <th><img src="assets/images/large/inf_1k_1.png" alt="large_inf_1"></th>
+    <th><img src="assets/images/large/inf_1k_2.png" alt="large_inf_2"></th>
+ </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="3"><div align=center><b>InfinityGAN</b></div></td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+### References
+
+<b>[1] Shir Gur, Sagie Benaim, and Lior Wolf. Hierarchical patch vae-gan: Generating diverse videos from a single
+sample. In H. Larochelle, M. Ranzato, R. Hadsell, M. F. Balcan, and H. Lin, editors, Advances in Neural
+Information Processing Systems, volume 33, pages 16761–16772. Curran Associates, Inc., 2020.
+</b>
+
+<b>[2] Chieh Hubert Lin, Yen-Chi Cheng, Hsin-Ying Lee, Sergey Tulyakov, and Ming-Hsuan Yang. InfinityGAN:
+Towards infinite-pixel image synthesis. In International Conference on Learning Representations, 2022.
+</b>
+
+
+<!-- <br>
 
 ### 4K scenery images synthesized by OUR-GAN
 OUR-GAN successfully synthesized high-quality non-repetitive images with visually coherent shapes with fine details.
@@ -52,7 +181,7 @@ OUR-GAN successfully synthesized high-quality texture images with diverse patter
 
 | [![4K_texture_0_0](/assets/images/downsampled/21000_52_downsampled.png)](/assets/images/4K/21000_52.png) | [![4K_texture_0_1](/assets/images/downsampled/21000_66_downsampled.png)](/assets/images/4K/21000_66.png) |
 |---|---|
-| [![4K_texture_1_0](/assets/images/downsampled/21022_52_downsampled.png)](/assets/images/4K/21022_52.png) | [![4K_texture_1_1](/assets/images/downsampled/21022_83_downsampled.png)](/assets/images/4K/21022_83.png) |
+| [![4K_texture_1_0](/assets/images/downsampled/21022_52_downsampled.png)](/assets/images/4K/21022_52.png) | [![4K_texture_1_1](/assets/images/downsampled/21022_83_downsampled.png)](/assets/images/4K/21022_83.png) | -->
 
 <!-- You can use the [editor on GitHub](https://github.com/anonymous-62348/anonymous-62348.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
