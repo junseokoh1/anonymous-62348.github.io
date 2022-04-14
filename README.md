@@ -121,7 +121,7 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 <thead>
   <tr>
     <th><a href="https://drive.google.com/file/d/1gCqqCaIP_yFMkt5zrreh8smXB-NLlTlQ/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_0.png" alt="large_our_0"></a></th>
-    <th><a href="https://drive.google.com/file/d/1rYitkLTsLlINzruv1m_I9565SxOPO6tP/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_1.png" alt="large_our_1"</a></th>
+    <th><a href="https://drive.google.com/file/d/1rYitkLTsLlINzruv1m_I9565SxOPO6tP/view?usp=sharing" target="_blank"><img src="/assets/images/large/our_1k_1.png" alt="large_our_1"></a></th>
  </tr>
 </thead>
 <tbody>
