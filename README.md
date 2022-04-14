@@ -9,7 +9,7 @@ We propose OUR-GAN, the first one-shot ultra-high-resolution (UHR) image synthes
 ### Notice
 Loading UHR images may take time because the files are large. \
 Therefore, we've posted downsampled versions of the images on this page for faster image loading. \
-**Click on the images to access the full-size raw images.** \
+**Click on the images to access the full-size raw images.** 
 
 The images may look distorted depending on the viewer since the image resolution is very high. \
 So, please download samples, then evaluate the quality. \
@@ -99,7 +99,7 @@ Download Sec 2. samples - [link](https://drive.google.com/drive/folders/1fKEny60
  </tr>
  <tr>
     <td colspan="2"><div align=center><b>HP-VAE-GAN</b></div></td>
-    <td colspan="2"><div align=center><b>OUR-GAN (proposed) <br> (HP-VAE-GAN + Vertical coordinate convolution) </b></div></td>
+    <td colspan="2"><div align=center><b>OUR-GAN (proposed) <br> [HP-VAE-GAN + <br> Vertical coordinate convolution] </b></div></td>
  </tr>
 </tbody>
 </table>
