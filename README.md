@@ -154,6 +154,42 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 
 <br>
 
+### 4. 16K (16,384 x 10,912) image synthesized by OUR-GAN trained with a single 16K training image.
+OUR-GAN can synthesize UHR image with higher resolution than that of the training image. \
+The resolution of this image is 16K, whereas that of the training image is only 4K. \
+OUR-GAN synthesize high-fidelity UHR images, preserving even fine details. \
+Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEqrjyv4cWRUaIkXRk21EirzK8cO?usp=sharing)
+
+<br>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="" target="_blank"><img src="/assets/images/downsampled/" alt="16k_our"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 10,912) Images synthesized by OUR-GAN</b></div></td>
+ </tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="" target="_blank"><img src="/assets/images/downsampled/" alt="4k_train"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (4,096 x 2,728) training image</b></div></td>
+ </tr>
+</tbody>
+</table>
+
 ### References
 
 <b>[1] Shir Gur, Sagie Benaim, and Lior Wolf. Hierarchical patch vae-gan: Generating diverse videos from a single
