@@ -182,7 +182,7 @@ Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl
 <table>
 <thead>
   <tr>
-    <th><a href="https://drive.google.com/file/d/1Dl-Vn00yzv4YCcNzzKgmw_02QyNgqsrI/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/" alt="4k_train"></a></th>
+    <th><a href="https://drive.google.com/file/d/1Dl-Vn00yzv4YCcNzzKgmw_02QyNgqsrI/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/" alt="16k_train"></a></th>
   </tr>
 </thead>
 <tbody>
