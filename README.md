@@ -166,7 +166,7 @@ Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEq
 <table>
 <thead>
   <tr>
-    <th><a href="" target="_blank"><img src="/assets/images/downsampled/" alt="16k_our"></a></th>
+    <th><a href="https://drive.google.com/file/d/1M9Vg5MbhA7ieT7MBwVocEJciOwbLjKxi/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/" alt="16k_our"></a></th>
   </tr>
 </thead>
 <tbody>
@@ -180,7 +180,7 @@ Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEq
 <table>
 <thead>
   <tr>
-    <th><a href="" target="_blank"><img src="/assets/images/downsampled/" alt="4k_train"></a></th>
+    <th><a href="https://drive.google.com/file/d/1Dl-Vn00yzv4YCcNzzKgmw_02QyNgqsrI/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/" alt="4k_train"></a></th>
   </tr>
 </thead>
 <tbody>
