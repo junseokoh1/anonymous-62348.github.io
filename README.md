@@ -173,7 +173,7 @@ Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl
 </thead>
 <tbody>
  <tr>
-    <td><div align=center><b>16K (16,384 x 10,912) Images synthesized by OUR-GAN</b></div></td>
+    <td><div align=center><b>16K (16,384 x 9,152) island images synthesized by OUR-GAN</b></div></td>
  </tr>
 </tbody>
 </table>
@@ -187,7 +187,37 @@ Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl
 </thead>
 <tbody>
  <tr>
-    <td><div align=center><b>16K (4,096 x 2,728) training image</b></div></td>
+    <td><div align=center><b>16K (16,329 x 9,185) island training image</b></div></td>
+ </tr>
+</tbody>
+</table>
+
+<br>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/1MISvmIiM2SAlzpWghHrGcos2NyRwoxES/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/" alt="16k_our_forest"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 10,880) forest images synthesized by OUR-GAN</b></div></td>
+ </tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://drive.google.com/file/d/14lJWmP6qo8wBtiwtvBAMcbqJJNvGqitX/view?usp=share_link" target="_blank"><img src="/assets/images/downsampled/" alt="16k_train_forest"></a></th>
+  </tr>
+</thead>
+<tbody>
+ <tr>
+    <td><div align=center><b>16K (16,384 x 10,880) forest training image</b></div></td>
  </tr>
 </tbody>
 </table>
