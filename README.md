@@ -158,7 +158,9 @@ Download Sec 3. samples - [link](https://drive.google.com/drive/folders/1pgyolhb
 OUR-GAN can synthesize UHR image with higher resolution than that of the training image. \
 The resolution of this image is 16K, whereas that of the training image is only 4K. \
 OUR-GAN synthesize high-fidelity UHR images, preserving even fine details. \
-Download Sec 1. samples - [link](https://drive.google.com/drive/folders/1gjs8TEqrjyv4cWRUaIkXRk21EirzK8cO?usp=sharing)
+Download Sec 4. samples - [island](https://drive.google.com/drive/folders/1C46bl3boX6C7ejnESXfSFtIW3eW7DHVE?usp=share_link), [forest](https://drive.google.com/drive/folders/1COCmJ_Rb7JFJZA6CnhmJrLdTmp3cVyhv?usp=share_link)
+
+
 
 <br>
 
